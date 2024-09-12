@@ -1,0 +1,79 @@
+Python Collections (Arrays)
+    In Python Collections are used to store group  of data with similar or multiple data types
+The four collection data types in the Python programming language are:
+1.List
+2.Tuple
+3.Set
+4.Dictinary
+
+    1.LIST :
+            List is a collection which is ordered and changeable. Allows duplicate members.
+        Lists are used to store multiple items in a single variable.
+Declaration and Accessing :
+       Ex1: 
+             thislist = ["apple", "banana", "cherry"]
+             print(thislist)
+
+       Ex2:  
+             list1 = [1, 5, 7, 9, 3]
+             list2 = [True, False, False]
+             list3 = ["abc", 34, True, 40, "male"]
+Accessing:
+      Ex3:
+              thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+              print(thislist[2:5])  '''HERE THE INDEX 2 IS INCLUDED AND INDEX 5 IS EXCLUDED WHEN PRINTING THE OUTPUT'''
+
+      Ex4:
+              thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+              print(thislist[:4])    '''PRINTS THE ELEMENTS FROM BEGINING AND ENDS WITH INDEX 3'''
+
+    2.TUPLE : 
+                Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+            Tuples are used to store multiple items in a single variable.
+            Tuples are written with round brackets.
+
+Declaration and Accessing :
+              thistuple = ("apple", "banana", "cherry")
+              print(thistuple)
+
+          Ex1:
+                thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+                print(thistuple[2:5])
+                """Here the element with index 2 is included and the elemeent with index 5 is excluded while printing the output"""
+
+          Ex2:
+                thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+                print(thistuple[:4])
+              """PRINTS THE ELEMENTS FROM INDEX 0 TO 3"""
+
+    3.SET : 
+            Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+
+  Declaration and Accessing :
+              thisset = {"apple", "banana", "cherry"}
+              print(thisset)
+            """ Note: the set list is unordered, Meaning: the items will appear in a random order."""  
+          Ex1 :
+              thisset = {"apple", "banana", "cherry"}
+              for x in thisset:
+              print(x)
+          Ex2:
+  4.Dictionary:
+            Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+Declaration and Accessing :
+            Ex1 :  thisdict = {
+                          "brand": "Ford",
+                          "model": "Mustang",
+                          "year": 1964
+                          }
+                    print(thisdict)
+
+            Ex2:
+                  thisdict = {
+                              "brand": "Ford",
+                              "model": "Mustang",
+                              "year": 1964
+                            }
+                print(thisdict["brand"])
+
